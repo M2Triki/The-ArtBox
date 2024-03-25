@@ -9,24 +9,17 @@
     <title>The ArtBox</title>
 </head>
 <body>
-<header>
-    <a href="index.html"><img src="img/logo.png" alt="Logo Artbox" id="logo"></a>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-        </ul>
-    </nav>
-</header>
+<?php require_once(__DIR__ . '/header.php'); ?> <!-- HEADER -->
 <main>
     <article id="detail-oeuvre">
         <div id="img-oeuvre">
-            <img src="img/orfeas-green.png" alt="Puffy Amalgamate">
+            <img src="img/steve-johnson.png" alt="Red Washover">
         </div>
         <div id="contenu-oeuvre">
-            <h1>Puffy Amalgamate</h1>
-            <p class="description">Sandro De Blasi</p>
+            <h1>Red Washover</h1>
+            <p class="description">Kit Van Der Borght</p>
             <p class="description-complete">
-                Donec semper a massa quis congue. In malesuada lorem ligula, ut posuere magna pulvinar in. Proin vitae enim gravida, commodo odio.
+                Nunc euismod ullamcorper tortor, id efficitur ante interdum in. Integer eu condimentum nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras viverra suscipit feugiat. Mauris vehicula luctus tellus, eu hendrerit libero laoreet ut. In tristique vehicula nisl in tempus. Morbi tempus aliquet gravida. In eget est congue, rhoncus sapien at, cursus metus.
             </p>
         </div>
     </article>

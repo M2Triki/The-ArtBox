@@ -9,24 +9,17 @@
     <title>The ArtBox</title>
 </head>
 <body>
-<header>
-    <a href="index.html"><img src="img/logo.png" alt="Logo Artbox" id="logo"></a>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-        </ul>
-    </nav>
-</header>
+<?php require_once(__DIR__ . '/header.php'); ?> <!-- HEADER -->
 <main>
     <article id="detail-oeuvre">
         <div id="img-oeuvre">
-            <img src="img/steve-johnson-3.png" alt="Blaue Gelbe Muster">
+            <img src="img/orfeas-green.png" alt="Puffy Amalgamate">
         </div>
         <div id="contenu-oeuvre">
-            <h1>Blaue Gelbe Muster</h1>
-            <p class="description">Adelheid Von Schreiber</p>
+            <h1>Puffy Amalgamate</h1>
+            <p class="description">Sandro De Blasi</p>
             <p class="description-complete">
-                Curabitur dui odio, porta vel tempor sed, consectetur vitae mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus nec.
+                Donec semper a massa quis congue. In malesuada lorem ligula, ut posuere magna pulvinar in. Proin vitae enim gravida, commodo odio.
             </p>
         </div>
     </article>

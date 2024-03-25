@@ -9,24 +9,17 @@
     <title>The ArtBox</title>
 </head>
 <body>
-<header>
-    <a href="index.html"><img src="img/logo.png" alt="Logo Artbox" id="logo"></a>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-        </ul>
-    </nav>
-</header>
+<?php require_once(__DIR__ . '/header.php'); ?> <!-- HEADER -->
 <main>
     <article id="detail-oeuvre">
         <div id="img-oeuvre">
-            <img src="img/steve-johnson-6.png" alt="Blast from the past">
+            <img src="img/steve-johnson-3.png" alt="Blaue Gelbe Muster">
         </div>
         <div id="contenu-oeuvre">
-            <h1>Blast from the past</h1>
-            <p class="description">Juliette Baskerville</p>
+            <h1>Blaue Gelbe Muster</h1>
+            <p class="description">Adelheid Von Schreiber</p>
             <p class="description-complete">
-                Nunc fermentum purus dapibus justo fermentum auctor. Maecenas non tincidunt leo. Morbi vitae iaculis sem. Donec quis scelerisque massa. Fusce quis accumsan diam, et interdum lectus. Suspendisse mattis pulvinar vehicula. Duis nisi.
+                Curabitur dui odio, porta vel tempor sed, consectetur vitae mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus nec.
             </p>
         </div>
     </article>
