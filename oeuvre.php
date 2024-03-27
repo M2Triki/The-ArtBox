@@ -1,5 +1,5 @@
 <?php 
-include 'oeuvres.php'; // Inclut le tableau des oeuvres
+include 'oeuvres.php';
 $id = isset($_GET['id']) ? intval($_GET['id']) : 0; 
 $index = $id - 1;
 ?>
@@ -10,7 +10,6 @@ $index = $id - 1;
     <meta charset="UTF-8">
     <title>Détails de l'œuvre</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- Assurez-vous d'inclure vos styles CSS ici si nécessaire -->
 </head>
 <body>
     <?php if (isset($oeuvres[$index])): ?>
