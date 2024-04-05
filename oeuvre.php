@@ -17,12 +17,12 @@ $id = $_GET['reference'] ;
            <?php if($_GET['reference'] == $oeuvre['id']) : ?>
                 <article id="detail-oeuvre">
                     <div id="img-oeuvre">
-                        <img src="img/<?php echo $oeuvre['img']; ?>" alt="<?php echo $oeuvre['title']; ?>" style="width: 100px; height: auto;">
+                        <img src="img/<?php echo $oeuvre['img']; ?>" alt="<?php echo $oeuvre['title']; ?>">
                     </div>
                     <div id="contenu-oeuvre">
                         <h1><?php echo $oeuvre['title']; ?></h1>
-                        <p class="description"><?php echo $oeuvre['description']; ?></p>
-                        <p>Artiste : <?php echo $oeuvre['author']; ?></p>
+                        <p class="description"><?php echo $oeuvre['author']; ?></p>
+                        <p class="description-complete"><?php echo $oeuvre['description']; ?></p>
                     </div>
                 </article>
             <?php endif; ?>
